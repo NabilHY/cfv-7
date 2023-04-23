@@ -32,7 +32,7 @@ export const data =  [{
   },
   {
     "title": "Walk in Their Shoes",
-    "result": `+0.5:A. "I'm sorry, I didn't realize you wanted to go to the party. I would have invited you if I had known." is a good response as well, a
+    "results": `+0.5:A. "I'm sorry, I didn't realize you wanted to go to the party. I would have invited you if I had known." is a good response as well, a
     it shows accountability and a desire to make things right, but it may not fully address the friend's emotions.
     0 score: B. "I didn't invite you because I thought you wouldn't want to come. I didn't mean to hurt your feelings." is a low EQ response,
     as it dismisses the friend's feelings and doesn't take responsibility for the miscommunication.
