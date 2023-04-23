@@ -1,0 +1,47 @@
+.NewPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .BoxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .Box:hover {
+    transform: scale(1.1);
+  }
+  
+  .selected {
+    background-color: lightblue;
+  }
+  
+  .EmojiContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .EmojiContainer span {
+    font-size: 24px;
+    margin: 0 5px;
+  }

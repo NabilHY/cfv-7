@@ -1,0 +1,30 @@
+.intro-message {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .intro-message-1 {
+    animation-name: fade-in;
+  }
+  
+  .intro-message-2 {
+    animation-name: fade-out;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
