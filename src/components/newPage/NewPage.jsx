@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import './newPage.css';
 
 const NewPage = () => {
@@ -8,11 +9,13 @@ const NewPage = () => {
     setSelectedBox(box);
   };
 
+  const history = useHistory();
+
   const handleSubmit = (event) => {
-    event.preventDefault(); // Prevent default form submission behavior
-    console.log(selectedBox); // Log selected box to the console
-    window.location.href = 'http://localhost:3000/survey'; // Redirect to desired URL
-  };
+    event.preventDefault();
+    console.log(selectedBox);
+    history.push('/survey'); 
+};
 
   return (
     <div className="NewPage">
